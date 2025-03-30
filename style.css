@@ -1,3 +1,18 @@
+:root {
+  --clr-primary-100: hsl(0, 0%, 100%);
+  --clr-secondary-900: hsl(75, 94%, 57%);
+
+  --clr-neutral-700: hsl(0, 0%, 20%);
+  --clr-neutral-800: hsl(0, 0%, 12%);
+  --clr-neutral-900: hsl(0, 0%, 8%);
+
+  --fw-normal: 400;
+  --fw-bold: 600;
+  --fw-black: 700;
+
+  --ff-base: "Inter", sans-serif;
+}
+
 /* 1. Use a more-intuitive box-sizing model */
 *,
 *::before,
