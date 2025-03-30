@@ -48,6 +48,7 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 ### Built with
 
 - Semantic HTML5 markup - i write HTML5 markup by refering desktop view [Kevin Powell](https://www.youtube.com/@KevinPowell) always recommend that way😂.
+- I added style.css file in header and reset my css from copy paste this code [joshwcomeau](https://www.joshwcomeau.com/css/custom-css-reset/) and i converted to comments in "3. Enable keyword animations" and "10.Create a root stacking context" because i don't know why this code is here😓.
 - CSS custom properties
 - Flexbox
 - CSS Grid
