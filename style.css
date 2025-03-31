@@ -174,3 +174,15 @@ body {
   background-color: var(--clr-secondary-900);
   color: var(--clr-neutral-900);
 }
+
+.attribution {
+  /* position: absolute; */
+  bottom: 0;
+  margin-top: 1rem;
+  font-size: 11px;
+  text-align: center;
+  color: white;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
