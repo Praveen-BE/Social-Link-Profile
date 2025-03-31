@@ -25,8 +25,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://praveen-be.github.io/Social-Link-Profile/)
+- Solution URL: [Github repository](https://github.com/Praveen-BE/Social-Link-Profile)
+- Live Site URL: [Social Link Profile](https://praveen-be.github.io/Social-Link-Profile/)
 
 ## My process
 
