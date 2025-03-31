@@ -88,3 +88,88 @@ h6 {
 #__next {
   isolation: isolate;
 } */
+
+body {
+  background-color: var(--clr-neutral-900);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: var(--ff-base);
+  height: 100vh;
+  width: 100vw;
+}
+
+.profile__socialLinks {
+  display: grid;
+  gap: 1.5rem;
+  background-color: var(--clr-neutral-800);
+  padding-top: 1.5rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-bottom: 1.5rem;
+  border-radius: 1rem;
+}
+
+.profile {
+  display: grid;
+  text-align: center;
+}
+
+.profile__img {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.profile__img img {
+  width: 90px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.profile__name {
+  color: var(--clr-primary-100);
+  font-size: 1.5rem;
+  font-weight: var(--fw-bold);
+}
+
+.profile__location {
+  color: var(--clr-secondary-900);
+  font-size: 0.9rem;
+  font-weight: var(--fw-normal);
+}
+
+.profile__description {
+  font-size: 0.85rem;
+  text-align: center;
+  color: var(--clr-primary-100);
+}
+
+.socialLinks {
+  /* min-width: 285px; */
+  display: grid;
+  gap: 1rem;
+}
+
+@media (min-width: 350px) {
+  .socialLinks {
+    min-width: 285px;
+  }
+}
+
+.social__btn {
+  border: 0;
+  padding: 0.625rem;
+  background-color: var(--clr-neutral-700);
+  color: var(--clr-primary-100);
+  font-weight: var(--fw-normal);
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+.social__btn:is(:hover, :active) {
+  background-color: var(--clr-secondary-900);
+  color: var(--clr-neutral-900);
+}
